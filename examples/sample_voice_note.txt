@@ -1,0 +1,3 @@
+Idea: we could make voice capture part of the first LocalWeave milestone.
+I need to test Portuguese and English recordings with the local transcription engine.
+Decision: no transcript becomes Markdown vault memory until I review and approve the proposed change.

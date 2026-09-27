@@ -1,0 +1,54 @@
+# Private configuration and local overrides
+.env
+.env.*
+!.env.example
+/.local/
+/private/
+/runtime/
+/data/
+
+# Secrets and credentials
+*.key
+*.pem
+*.p12
+*.token
+*.secret
+credentials.json
+secrets.toml
+
+# Personal and generated content
+/vault-export/
+/obsidian-export/
+/recordings/
+/transcripts/
+/proposals/
+/snapshots/
+/research/private/
+
+# Models, indexes, state, and caches
+*.bin
+*.ggml
+*.safetensors
+*.sqlite
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.jsonl
+
+# Python and development tools
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
